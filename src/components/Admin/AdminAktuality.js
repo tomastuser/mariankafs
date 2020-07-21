@@ -11,7 +11,7 @@ const AdminAktuality = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5000/api/aktuality/')
+      .get('https://mariankafs.herokuapp.com/api/aktuality/')
       .then((res) => {
         setAktuality(res.data);
       })

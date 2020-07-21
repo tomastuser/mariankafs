@@ -16,7 +16,7 @@ const EditNew = () => {
   const submitChanges = (e) => {
     e.preventDefault();
 
-    fetch(`http://localhost:5000/api/${kategorie}/`, {
+    fetch(`https://mariankafs.herokuapp.com/api/${kategorie}/`, {
       method: 'POST',
       headers: {
         Accept: 'application/json, text/plain, */*',

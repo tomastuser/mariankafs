@@ -11,7 +11,7 @@ const AdminStranky = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:5000/api/stranky/')
+      .get('https://mariankafs.herokuapp.com/api/stranky/')
       .then((res) => {
         setAktuality(res.data);
         setIsLoaded(true);
