@@ -11,7 +11,7 @@ const Krouzky = () => {
           do 3 let v doprovodu rodiče nebo jiné blízké osoby. Od malička děti
           poznávají přírodu hravou formou - písničky, básničky, tvoření, hry,
           procházky. Celý program probíhá na prostorné zahradě a v blízkém lese
-          pod vedením lektora z lesního klubu.
+          pod vedením lektora z lesního klubu..
         </p>
         <h3>Jaro 2020</h3>
         <p>Přihlašovací formulář&nbsp;</p>
