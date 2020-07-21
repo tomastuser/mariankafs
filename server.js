@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const path = require('path');
 
 mongoose.connect(
-  process.env.DATABASE_URL || 'mongodb://localhost:27017/marianka',
+  process.env.MONGODB_URI || 'mongodb://localhost:27017/marianka',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
