@@ -5,15 +5,12 @@ const Schema = mongoose.Schema;
 const AktualitaSchema = new Schema({
   name: {
     type: String,
-    required: true,
   },
   text: {
     type: String,
-    required: true,
   },
   image: {
     type: Object,
-    required: false,
   },
   date: {
     type: Date,
