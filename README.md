@@ -1,1 +1,1 @@
-Web LMŠ Mariánka
+Fullstack web LMŠ Mariánka.
