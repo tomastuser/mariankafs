@@ -7,7 +7,7 @@ const Cenik = () => {
 
   useEffect(() => {
     axios
-      .get('https://mariankafs.herokuapp.com/api/stranky/')
+      .get('http://localhost:5000/api/stranky/')
       .then((res) => {
         res.data.map((stranka) => {
           stranka.name === 'Ceník'

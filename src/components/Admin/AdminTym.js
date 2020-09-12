@@ -11,7 +11,7 @@ const AdminTym = () => {
 
   useEffect(() => {
     axios
-      .get('https://mariankafs.herokuapp.com/api/tym/')
+      .get('http://localhost:5000/api/tym/')
       .then((res) => {
         setAktuality(res.data);
         setIsLoaded(true);

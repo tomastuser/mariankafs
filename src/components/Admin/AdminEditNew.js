@@ -16,7 +16,7 @@ const EditNew = () => {
   const submitChanges = (e) => {
     e.preventDefault();
 
-    fetch(`https://mariankafs.herokuapp.com/api/${kategorie}/`, {
+    fetch(`http://localhost:5000/api/${kategorie}/`, {
       method: 'POST',
       headers: {
         Accept: 'application/json, text/plain, */*',
@@ -73,7 +73,7 @@ const EditNew = () => {
             type='text'
             className='formControl'
             id='imageURL'
-            onChange={handleImageChange}
+            onBlur={handleImageChange}
           />
         </div>
 

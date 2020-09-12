@@ -1115,7 +1115,7 @@ tr:nth-child(even) {
 
 .danger {
   background-color: #dc3545;
-  border-color: dc3545;
+  border-color: #dc3545;
 }
 
 .stred {

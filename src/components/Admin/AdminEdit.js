@@ -16,7 +16,7 @@ const Edit = () => {
   const kategorie = urlParams.get('kategorie');
 
   useEffect(() => {
-    fetch(`https://mariankafs.herokuapp.com/api/${kategorie}/${id}`)
+    fetch(`http://localhost:5000/api/${kategorie}/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setApiData(data);
@@ -32,7 +32,7 @@ const Edit = () => {
   const submitChanges = (e) => {
     e.preventDefault();
 
-    fetch(`https://mariankafs.herokuapp.com/${kategorie}/${id}`, {
+    fetch(`http://localhost:5000/api/${kategorie}/${id}`, {
       method: 'PUT',
       headers: {
         Accept: 'application/json, text/plain, */*',
@@ -55,7 +55,7 @@ const Edit = () => {
   const deletePost = (e) => {
     e.preventDefault();
 
-    fetch(`https://mariankafs.herokuapp.com/api/${kategorie}/${id}`, {
+    fetch(`http://localhost:5000/api/${kategorie}/${id}`, {
       method: 'DELETE',
       redirect: 'follow',
     })
@@ -104,7 +104,7 @@ const Edit = () => {
             className='formControl'
             id='imageURL'
             value={apiImage}
-            onBlur={handleImageChange}
+            onChange={handleImageChange}
           />
         </div>
 

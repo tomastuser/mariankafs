@@ -165,7 +165,7 @@ const App = (props) => {
           <Route exact path='/admin/editnew' component={AdminEditNew} />
           <Route path='/admin/edit' component={AdminEdit} />
           <div className='App'>
-            <Nav navLinks={navLinks} />
+            <Nav />
             <div className='navSpacerAtTheTop'></div>
             <main>
               <Route path='/' exact component={Uvod} />
